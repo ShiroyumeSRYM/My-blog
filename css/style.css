@@ -90,7 +90,7 @@ body {
 /* 主卡片 */
 .main-card {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 /* 个人信息区域 */
@@ -387,7 +387,7 @@ body {
 
 /* 即将发布卡片 */
 .upcoming-card {
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     text-align: center;
     margin-top: 20px;
