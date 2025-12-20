@@ -60,13 +60,14 @@ body {
 
 /* 主容器 */
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 30px;
 }
 
 /* 毛玻璃卡片样式 */
@@ -87,10 +88,24 @@ body {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* 主卡片 */
-.main-card {
+/* 卡片布局 */
+.profile-card {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
+    padding: 30px;
+}
+
+.works-card {
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.upcoming-card {
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px;
+    text-align: center;
 }
 
 /* 个人信息区域 */
@@ -322,24 +337,29 @@ body {
 /* 平台选项卡 */
 .platform-tabs {
     display: flex;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 25px;
     border-bottom: 1px solid #e0e0e0;
+    padding: 0 20px;
 }
 
 .platform-tab {
     background: transparent;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 25px;
     font-size: 1rem;
     cursor: pointer;
     color: #666;
     position: relative;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0 5px;
 }
 
 .platform-tab:hover {
     color: #0078d4;
+    background: rgba(0, 120, 212, 0.05);
+    border-radius: 5px 5px 0 0;
 }
 
 .platform-tab.active {
@@ -362,27 +382,39 @@ body {
 .embed-container {
     position: relative;
     width: 100%;
-    min-height: 300px;
     border-radius: 10px;
     overflow: hidden;
     background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
 }
 
 .embed-content {
     display: none;
     width: 100%;
-    height: 100%;
+    min-height: 200px;
 }
 
 .embed-content.active {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .embed-content iframe {
     width: 100%;
-    height: 400px;
+    min-height: 300px;
     border: none;
     border-radius: 8px;
+    max-height: 600px;
+}
+
+/* 网易云嵌入特殊处理 */
+.embed-content#embed-netease iframe {
+    height: 86px;
+    min-height: 86px;
+    max-height: 86px;
 }
 
 /* 即将发布卡片 */

@@ -25,8 +25,8 @@
     <div class="container">
         <!-- 主内容区域 -->
         <main class="main-content">
-            <!-- 主卡片 - 毛玻璃效果 -->
-            <div class="glass-card main-card">
+            <!-- 个人资料卡片 -->
+            <div class="glass-card profile-card">
                 <!-- 头像和基本信息区域 -->
                 <div class="profile-section">
                     <!-- 头像占位符 - 替换图片请修改下面src属性 -->
@@ -95,41 +95,41 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- 最新作品卡片 -->
+            <div class="glass-card works-card">
+                <h3 class="section-title" data-lang-key="latest-works">最新作品</h3>
                 
-                <!-- 最新作品区域 -->
-                <div class="works-section">
-                    <h3 class="section-title" data-lang-key="latest-works">最新作品</h3>
-                    
-                    <!-- 平台切换选项卡 -->
-                    <div class="platform-tabs">
-                        <button class="platform-tab active" data-platform="bilibili" data-lang-key="bilibili-tab">B站</button>
-                        <button class="platform-tab" data-platform="youtube" data-lang-key="youtube-tab">YouTube</button>
-                        <button class="platform-tab" data-platform="netease" data-lang-key="netease-tab">网易云</button>
+                <!-- 平台切换选项卡 -->
+                <div class="platform-tabs">
+                    <button class="platform-tab active" data-platform="bilibili" data-lang-key="bilibili-tab">B站</button>
+                    <button class="platform-tab" data-platform="youtube" data-lang-key="youtube-tab">YouTube</button>
+                    <button class="platform-tab" data-platform="netease" data-lang-key="netease-tab">网易云</button>
+                </div>
+                
+                <!-- 嵌入内容区域 -->
+                <div class="embed-container">
+                    <!-- B站嵌入 - 默认显示给中国IP -->
+                    <div class="embed-content active" id="embed-bilibili">
+                        <!-- 替换下面的iframe src为您的B站视频链接 -->
+                        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
+                                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
                     </div>
                     
-                    <!-- 嵌入内容区域 -->
-                    <div class="embed-container">
-                        <!-- B站嵌入 - 默认显示给中国IP -->
-                        <div class="embed-content active" id="embed-bilibili">
-                            <!-- 替换下面的iframe src为您的B站视频链接 -->
-                            <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
-                                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-                        </div>
-                        
-                        <!-- YouTube嵌入 - 默认显示给外国IP -->
-                        <div class="embed-content" id="embed-youtube">
-                            <!-- 替换下面的iframe src为您的YouTube视频链接 -->
-                            <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
-                                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-                        </div>
-                        
-                        <!-- 网易云嵌入 -->
-                        <div class="embed-content" id="embed-netease">
-                            <!-- 替换下面的iframe src为您的网易云音乐链接 -->
-                            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" 
-                                    width="100%" height="86" 
-                                    src="//music.163.com/outchain/player?type=2&id=3328574207&auto=0&height=66"></iframe>
-                        </div>
+                    <!-- YouTube嵌入 - 默认显示给外国IP -->
+                    <div class="embed-content" id="embed-youtube">
+                        <!-- 替换下面的iframe src为您的YouTube视频链接 -->
+                        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
+                                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                    </div>
+                    
+                    <!-- 网易云嵌入 -->
+                    <div class="embed-content" id="embed-netease">
+                        <!-- 替换下面的iframe src为您的网易云音乐链接 -->
+                        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" 
+                                width="100%" height="86" 
+                                src="//music.163.com/outchain/player?type=2&id=3328574207&auto=0&height=66"></iframe>
                     </div>
                 </div>
             </div>
