@@ -154,13 +154,13 @@ function loadWorksFromJSON() {
         const isLocalFile = window.location.protocol === 'file:';
         
         if (isLocalFile) {
-            // 本地文件环境：使用XMLHttpRequest
-            loadJSONViaXHR().then(data => resolve(generateWorksHTML(data))).catch(reject);
+            // 本地文件环境：优先使用XMLHttpRequest
+            loadJSONViaXHR().then(data => resolve(data)).catch(reject);
         } else {
-            // HTTP/HTTPS环境：使用fetch
-            loadJSONViaFetch().then(data => resolve(generateWorksHTML(data))).catch(() => {
+            // HTTP/HTTPS环境：优先使用fetch
+            loadJSONViaFetch().then(data => resolve(data)).catch(() => {
                 // fetch失败，尝试XMLHttpRequest
-                loadJSONViaXHR().then(data => resolve(generateWorksHTML(data))).catch(reject);
+                loadJSONViaXHR().then(data => resolve(data)).catch(reject);
             });
         }
     });
@@ -295,7 +295,10 @@ const fallbackWorksHTML = `
 // 加载作品列表
 function loadWorksList() {
     const worksListContainer = document.getElementById('works-list-container');
-    if (!worksListContainer) return;
+    if (!worksListContainer) {
+        console.error('未找到作品列表容器');
+        return;
+    }
     
     // 显示加载中状态
     worksListContainer.innerHTML = `
@@ -304,11 +307,16 @@ function loadWorksList() {
         </div>
     `;
     
+    console.log('开始加载作品列表...');
+    
     // 从JSON文件加载作品数据
     loadWorksFromJSON()
-        .then(worksHTML => {
+        .then(data => {
+            console.log('JSON数据加载成功:', data);
+            const worksHTML = generateWorksHTML(data);
             worksListContainer.innerHTML = worksHTML;
             loadFontAwesome();
+            console.log('作品列表渲染完成');
         })
         .catch(error => {
             console.error('加载作品列表失败:', error);
