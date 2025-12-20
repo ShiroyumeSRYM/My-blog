@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シロユメ_Shiroyume - 个人博客</title>
+    <!-- 字体链接 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 细圆体字体 - 免费可商用 -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 图标库 - 免费可商用 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 语言切换按钮 -->
+    <div class="language-switcher">
+        <button class="lang-btn" id="lang-en" title="English">EN</button>
+        <button class="lang-btn" id="lang-ja" title="日本語">JP</button>
+        <button class="lang-btn active" id="lang-zh" title="中文">中</button>
+    </div>
+
+    <div class="container">
+        <!-- 主内容区域 -->
+        <main class="main-content">
+            <!-- 主卡片 - 毛玻璃效果 -->
+            <div class="glass-card main-card">
+                <!-- 头像和基本信息区域 -->
+                <div class="profile-section">
+                    <!-- 头像占位符 - 替换图片请修改下面src属性 -->
+                    <div class="avatar-container">
+                        <img src="assets/images/avatar.jpg" alt="シロユメ_Shiroyume" class="avatar" id="avatar-img">
+                        <!-- 如果头像加载失败，显示绿色占位符 -->
+                        <div class="avatar-placeholder" id="avatar-placeholder"></div>
+                    </div>
+                    
+                    <!-- 名字和别名 -->
+                    <div class="name-section">
+                        <h1 class="main-name" data-lang-key="main-name">シロユメ_Shiroyume</h1>
+                        <h2 class="subtitle" data-lang-key="subtitle">纯白之梦</h2>
+                        <div class="aliases">
+                            <span class="alias-tag">SRYM</span>
+                            <span class="alias-tag">白夢</span>
+                        </div>
+                    </div>
+                    
+                    <!-- 社交账号链接 -->
+                    <div class="social-links">
+                        <a href="https://space.bilibili.com/470665937" target="_blank" class="social-link bilibili" title="Bilibili">
+                            <i class="fab fa-bilibili"></i>
+                        </a>
+                        <a href="https://x.com/Shiroyume_SRYM" target="_blank" class="social-link twitter" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://m.youtube.com/@shiroyume_srym" target="_blank" class="social-link youtube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="http://music.163.com/artist?id=100006754" target="_blank" class="social-link netease" title="网易云音乐">
+                            <i class="fas fa-music"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- 邮箱 -->
+                    <div class="email-section">
+                        <div class="email-item">
+                            <i class="fas fa-envelope email-icon"></i>
+                            <span>shiroyume.official@gmail.com</span>
+                        </div>
+                        <div class="email-item">
+                            <i class="fas fa-envelope email-icon"></i>
+                            <span>shiroyume_official@163.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 可展开的简介 -->
+                <div class="bio-section">
+                    <div class="bio-header">
+                        <span class="bio-title" data-lang-key="bio-title">简介</span>
+                        <i class="fas fa-flag flag-icon" title="中国"></i>
+                        <button class="expand-btn" id="expand-bio">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="bio-content collapsed" id="bio-content">
+                        <p class="bio-short" data-lang-key="bio-short">VOCALOID-P / Musical / Coder</p>
+                        <!-- 在index.html中修改bio-full部分 -->
+                        <div class="bio-full" id="bio-full">
+                            <p data-lang-key="bio-line1">曲风：Hardcore、Trance、Drum & Bass</p>
+                            <p data-lang-key="bio-line2">喜欢：Kasane Teto、Chis-A、Kafu、Hatsune Miku</p>
+                            <p data-lang-key="bio-line3">语言：中文（母语）、英语（一些）</p>
+                            <p data-lang-key="bio-line4">曾用名：无意识_koishi、KOI</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 最新作品区域 -->
+                <div class="works-section">
+                    <h3 class="section-title" data-lang-key="latest-works">最新作品</h3>
+                    
+                    <!-- 平台切换选项卡 -->
+                    <div class="platform-tabs">
+                        <button class="platform-tab active" data-platform="bilibili" data-lang-key="bilibili-tab">B站</button>
+                        <button class="platform-tab" data-platform="youtube" data-lang-key="youtube-tab">YouTube</button>
+                        <button class="platform-tab" data-platform="netease" data-lang-key="netease-tab">网易云</button>
+                    </div>
+                    
+                    <!-- 嵌入内容区域 -->
+                    <div class="embed-container">
+                        <!-- B站嵌入 - 默认显示给中国IP -->
+                        <div class="embed-content active" id="embed-bilibili">
+                            <!-- 替换下面的iframe src为您的B站视频链接 -->
+                            <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
+                                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                        </div>
+                        
+                        <!-- YouTube嵌入 - 默认显示给外国IP -->
+                        <div class="embed-content" id="embed-youtube">
+                            <!-- 替换下面的iframe src为您的YouTube视频链接 -->
+                            <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115716233627043&bvid=BV1mjmiBPEBh&cid=34728902857&p=1" 
+                                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                        </div>
+                        
+                        <!-- 网易云嵌入 -->
+                        <div class="embed-content" id="embed-netease">
+                            <!-- 替换下面的iframe src为您的网易云音乐链接 -->
+                            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" 
+                                    width="100%" height="86" 
+                                    src="//music.163.com/outchain/player?type=2&id=3328574207&auto=0&height=66"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 即将发布作品卡片 -->
+            <div class="glass-card upcoming-card">
+                <h3 class="section-title" data-lang-key="upcoming">即将发布</h3>
+                <!-- 修改下面的p标签内容来更新即将发布的作品 -->
+                <p class="upcoming-content" id="upcoming-content" data-lang-key="upcoming-default">My New Music!!!</p>
+            </div>
+            
+            <!-- 稿件列表按钮 -->
+            <button class="works-btn" id="open-works-modal" data-lang-key="works-btn">查看所有作品</button>
+        </main>
+    </div>
+    
+    <!-- 弹窗遮罩 -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    
+    <!-- 弹窗 -->
+    <div class="modal" id="works-modal">
+        <div class="modal-header">
+            <h3 data-lang-key="works-modal-title">作品列表</h3>
+            <button class="close-modal" id="close-modal">&times;</button>
+        </div>
+        <div class="modal-content">
+            <!-- 弹窗内容将通过JavaScript动态加载popup.json -->
+            <div id="works-list-container">
+                <!-- 内容将通过JavaScript加载 -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- 脚本引入 -->
+    <script src="js/script.js"></script>
+    <script src="js/ip-detection.js"></script>
+</body>
+</html>

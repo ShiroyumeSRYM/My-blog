@@ -1,0 +1,115 @@
+{
+  "works": [
+    {
+      "id": "work-1",
+      "title": "【原创曲】Pure White Dream",
+      "time": "2024-01-15",
+      "displayTime": "2024年1月15日",
+      "description": "这是我的最新原创曲，融合了Trance和Hardcore元素，表达了对纯白之梦的向往。",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1mjmiBPEBh",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "youtube", 
+          "url": "https://www.youtube.com/watch?v=example",
+          "title": "YouTube",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/song?id=3328574207",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    },
+    {
+      "id": "work-2",
+      "title": "【Remix】Digital Love Remix",
+      "time": "2023-11-20",
+      "displayTime": "2023年11月20日",
+      "description": "对经典曲目Digital Love的Drum & Bass风格重混，加入了个人风格的元素。",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1example1",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/song?id=3328574206",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    },
+    {
+      "id": "work-3",
+      "title": "【原创曲】Midnight Coding",
+      "time": "2023-09-05",
+      "displayTime": "2023年9月5日",
+      "description": "一首关于深夜编程的电子音乐，节奏感强，适合coding时听。",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1example2",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/watch?v=example2",
+          "title": "YouTube", 
+          "icon": "fab fa-youtube"
+        }
+      ]
+    },
+    {
+      "id": "work-4",
+      "title": "【Cover】Hatsune Miku - World is Mine",
+      "time": "2023-07-12",
+      "displayTime": "2023年7月12日",
+      "description": "初音未来经典曲目的个人翻唱版本，加入了Trance元素重新编曲。",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1example3",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "work-5",
+      "title": "【原创曲】Neon City",
+      "time": "2023-05-18",
+      "displayTime": "2023年5月18日",
+      "description": "受赛博朋克启发的电子音乐，描绘未来都市的霓虹灯光。",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1example4",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/watch?v=example4",
+          "title": "YouTube",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/song?id=3328574205",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    }
+  ]
+}
