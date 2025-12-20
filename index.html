@@ -30,8 +30,10 @@
                 <!-- 头像和基本信息区域 -->
                 <div class="profile-section">
                     <!-- 头像占位符 - 替换图片请修改下面src属性 -->
-                    <div class="avatar-container">
-                        <img src="assets/images/avatar.jpg" alt="シロユメ_Shiroyume" class="avatar" id="avatar-img">
+                    <div class="avatar-container" id="avatar-container">
+                        <!-- 头像保护层 -->
+                        <div class="avatar-protection"></div>
+                        <img src="assets/images/avatar.jpg" alt="シロユメ_Shiroyume" class="avatar" id="avatar-img" oncontextmenu="return false;" draggable="false">
                         <!-- 如果头像加载失败，显示绿色占位符 -->
                         <div class="avatar-placeholder" id="avatar-placeholder"></div>
                     </div>
@@ -79,7 +81,6 @@
                 <div class="bio-section">
                     <div class="bio-header">
                         <span class="bio-title" data-lang-key="bio-title">简介</span>
-                        <i class="fas fa-flag flag-icon" title="中国"></i>
                         <button class="expand-btn" id="expand-bio">
                             <i class="fas fa-chevron-down"></i>
                         </button>

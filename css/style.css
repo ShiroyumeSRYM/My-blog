@@ -122,6 +122,19 @@ body {
     margin: 0 auto 20px;
 }
 
+/* 头像保护层 */
+.avatar-protection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    pointer-events: auto;
+    z-index: 2;
+    cursor: default;
+}
+
 .avatar {
     width: 100%;
     height: 100%;
@@ -129,6 +142,13 @@ body {
     object-fit: cover;
     border: 3px solid #f0f0f0;
     display: block;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .avatar-placeholder {
@@ -140,6 +160,7 @@ body {
     border-radius: 50%;
     background: #4CAF50; /* 绿色占位符 */
     display: none;
+    pointer-events: none;
 }
 
 /* 名字区域 */

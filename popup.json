@@ -1,11 +1,296 @@
 {
   "works": [
     {
-      "id": "work-1",
-      "title": "【原创曲】Pure White Dream",
-      "time": "2024-01-15",
-      "displayTime": "2024年1月15日",
-      "description": "这是我的最新原创曲，融合了Trance和Hardcore元素，表达了对纯白之梦的向往。",
+      "id": "0",
+      "title": "アンノウン・マザーグース / Mashup by SRYM",
+      "time": "2024-07-17",
+      "displayTime": "2024年7月17日",
+      "description": "Mushup.\nfeat.Wowaka & Hatsune Miku",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1Pw4m1Y7z7",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Rolling Girl / feat.可不",
+      "time": "2024-08-04",
+      "displayTime": "2024年8月4日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1zvvfe2E2J",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/#/song?id=2746063683",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "命に嫌われている / feat.可不",
+      "time": "2024-08-18",
+      "displayTime": "2024年8月18日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1vKWFeGEvG/",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Unknown Mother-goose / Remix by SRYM",
+      "time": "2024-08-30",
+      "displayTime": "2024年8月30日",
+      "description": "Remix.\nfeat.初音ミク",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1KUWZefEmr",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "沙の惑星 / feat.重音テトSV",
+      "time": "2024-09-16",
+      "displayTime": "2024年9月16日",
+      "description": "Cover.\n使用Synthesizer V AI 重音テト Lite版声库制作\n该作品非商业用途",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1BN4ReGEwH",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "ダーリン / feat.重音テト",
+      "time": "2023-05-18",
+      "displayTime": "2023年5月18日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1dVfBY9Eks",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "再演（MARETU Cover） / feat.重音テト& 足立レイ",
+      "time": "2025-01-26",
+      "displayTime": "2025年1月26日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV17TffYJEwk",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "スクラマイズ / feat.重音テト",
+      "time": "2025-02-04",
+      "displayTime": "2025年2月4日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1KLNcenE1S",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Mind Brand / feat.重音テト",
+      "time": "2025-03-01",
+      "displayTime": "2025年3月1日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1hJX9Y5Edq",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "ごめんね ごめんね / feat.重音テト",
+      "time": "2025-05-19",
+      "displayTime": "2025年5月19日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1NBJGzyEzy",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "東京テディベア / feat.重音テト",
+      "time": "2025-07-28",
+      "displayTime": "2025年7月28日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1VS8LzFEDs",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "ロストアンブレラ / feat.重音テト",
+      "time": "2025-08-22",
+      "displayTime": "2025年8月22日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1RgYfzxEzU",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "12",
+
+      "title": "ツギハギスタッカート / feat.重音テト",
+
+      "time": "2025-08-25",
+
+      "displayTime": "2025年8月25日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1p1exz7EH3",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "13",
+
+      "title": "请不要带我走。/ Remix by SRYM (KOI)",
+
+      "time": "2025-08-30",
+
+      "displayTime": "2025年8月30日",
+      "description": "Remix.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1K4hvz6Ed5",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/song?id=2745778925",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    },
+    {
+      "id": "14",
+
+      "title": "失敗作少女 / feat.重音テト",
+
+      "time": "2025-10-01",
+
+      "displayTime": "2025年10月01日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1MSHWzXEWn",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "15",
+
+      "title": "フォニイ / feat.重音テト",
+
+      "time": "2025-10-19",
+
+      "displayTime": "2025年10月19日",
+      "description": "Cover.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1zDsFz1EFb",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "16",
+
+      "title": "紫色の向日葵 / feat.知声",
+
+      "time": "2025-11-08",
+
+      "displayTime": "2025年11月08日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1CL1QBAEfr",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        }
+      ]
+    },
+    {
+      "id": "17",
+
+      "title": "I Can't Wait / feat. 重音テト AI",
+
+      "time": "2025-12-14",
+
+      "displayTime": "2025年12月14日",
+      "description": "Cover.",
       "platforms": [
         {
           "name": "bilibili",
@@ -14,98 +299,8 @@
           "icon": "fab fa-bilibili"
         },
         {
-          "name": "youtube", 
-          "url": "https://www.youtube.com/watch?v=example",
-          "title": "YouTube",
-          "icon": "fab fa-youtube"
-        },
-        {
           "name": "netease",
           "url": "https://music.163.com/song?id=3328574207",
-          "title": "网易云",
-          "icon": "fas fa-music"
-        }
-      ]
-    },
-    {
-      "id": "work-2",
-      "title": "【Remix】Digital Love Remix",
-      "time": "2023-11-20",
-      "displayTime": "2023年11月20日",
-      "description": "对经典曲目Digital Love的Drum & Bass风格重混，加入了个人风格的元素。",
-      "platforms": [
-        {
-          "name": "bilibili",
-          "url": "https://www.bilibili.com/video/BV1example1",
-          "title": "Bilibili",
-          "icon": "fab fa-bilibili"
-        },
-        {
-          "name": "netease",
-          "url": "https://music.163.com/song?id=3328574206",
-          "title": "网易云",
-          "icon": "fas fa-music"
-        }
-      ]
-    },
-    {
-      "id": "work-3",
-      "title": "【原创曲】Midnight Coding",
-      "time": "2023-09-05",
-      "displayTime": "2023年9月5日",
-      "description": "一首关于深夜编程的电子音乐，节奏感强，适合coding时听。",
-      "platforms": [
-        {
-          "name": "bilibili",
-          "url": "https://www.bilibili.com/video/BV1example2",
-          "title": "Bilibili",
-          "icon": "fab fa-bilibili"
-        },
-        {
-          "name": "youtube",
-          "url": "https://www.youtube.com/watch?v=example2",
-          "title": "YouTube", 
-          "icon": "fab fa-youtube"
-        }
-      ]
-    },
-    {
-      "id": "work-4",
-      "title": "【Cover】Hatsune Miku - World is Mine",
-      "time": "2023-07-12",
-      "displayTime": "2023年7月12日",
-      "description": "初音未来经典曲目的个人翻唱版本，加入了Trance元素重新编曲。",
-      "platforms": [
-        {
-          "name": "bilibili",
-          "url": "https://www.bilibili.com/video/BV1example3",
-          "title": "Bilibili",
-          "icon": "fab fa-bilibili"
-        }
-      ]
-    },
-    {
-      "id": "work-5",
-      "title": "【原创曲】Neon City",
-      "time": "2023-05-18",
-      "displayTime": "2023年5月18日",
-      "description": "受赛博朋克启发的电子音乐，描绘未来都市的霓虹灯光。",
-      "platforms": [
-        {
-          "name": "bilibili",
-          "url": "https://www.bilibili.com/video/BV1example4",
-          "title": "Bilibili",
-          "icon": "fab fa-bilibili"
-        },
-        {
-          "name": "youtube",
-          "url": "https://www.youtube.com/watch?v=example4",
-          "title": "YouTube",
-          "icon": "fab fa-youtube"
-        },
-        {
-          "name": "netease",
-          "url": "https://music.163.com/song?id=3328574205",
           "title": "网易云",
           "icon": "fas fa-music"
         }

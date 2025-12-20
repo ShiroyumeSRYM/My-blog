@@ -6,10 +6,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // 初始化函数
 function init() {
-    // 头像加载失败处理
+    // 头像保护功能
     const avatarImg = document.getElementById('avatar-img');
+    const avatarContainer = document.getElementById('avatar-container');
     const avatarPlaceholder = document.getElementById('avatar-placeholder');
     
+    // 防止右键菜单
+    if (avatarContainer) {
+        avatarContainer.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+        
+        // 防止拖拽
+        avatarContainer.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+        
+        // 防止复制图片
+        avatarContainer.addEventListener('copy', function(e) {
+            e.preventDefault();
+            return false;
+        });
+    }
+    
+    // 头像加载失败处理
     if (avatarImg) {
         avatarImg.onerror = function() {
             this.style.display = 'none';
