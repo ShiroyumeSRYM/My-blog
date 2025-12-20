@@ -219,9 +219,13 @@ function generateWorksHTML(data) {
         throw new Error('作品数据格式错误');
     }
     
+    // 按时间倒序排序（从最新到最旧）
+    const sortedWorks = data.works.sort((a, b) => {
+        return new Date(b.time) - new Date(a.time);
+    
     let worksHTML = '<div class="works-list">';
     
-    data.works.forEach(work => {
+    sortedWorks.forEach(work => {
         worksHTML += `
             <div class="work-item">
                 <div class="work-header">
