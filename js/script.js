@@ -168,7 +168,7 @@ function loadWorksFromJSON() {
 
 // 使用fetch加载JSON
 function loadJSONViaFetch() {
-    return fetch('popup.json')
+    return fetch('popup.json?' + new Date().getTime())
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP错误! 状态: ${response.status}`);
@@ -181,7 +181,7 @@ function loadJSONViaFetch() {
 function loadJSONViaXHR() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'popup.json', true);
+        xhr.open('GET', 'popup.json?' + new Date().getTime(), true);
         xhr.responseType = 'json';
         
         xhr.onload = function() {
