@@ -1,0 +1,27 @@
+{
+      "id": "",
+      "title": "",
+      "time": "2023-05-18",
+      "displayTime": "2023年5月18日",
+      "description": "",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "youtube",
+          "url": "",
+          "title": "YouTube",
+          "icon": "fab fa-youtube"
+        },
+        {
+          "name": "netease",
+          "url": "",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        }
+      ]
+    }

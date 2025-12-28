@@ -235,7 +235,7 @@
 
       "time": "2025-10-01",
 
-      "displayTime": "2025年10月01日",
+      "displayTime": "2025年10月1日",
       "description": "Cover.",
       "platforms": [
         {
@@ -271,7 +271,7 @@
 
       "time": "2025-11-08",
 
-      "displayTime": "2025年11月08日",
+      "displayTime": "2025年11月8日",
       "description": "Cover.\nShort ver.",
       "platforms": [
         {
@@ -303,6 +303,42 @@
           "url": "https://music.163.com/song?id=3328574207",
           "title": "网易云",
           "icon": "fas fa-music"
+        },
+        {
+          "name": "youtube",
+          "url": "https://youtu.be/PJgO3f4WkMk",
+          "title": "YouTube",
+          "icon": "fab fa-youtube"
+        }
+      ]
+    },
+    {
+      "id": "19",
+
+      "title": "ロストワンの号哭 / feat. 重音テト AI",
+
+      "time": "2025-12-28",
+
+      "displayTime": "2025年12月28日",
+      "description": "Cover.\nShort ver.",
+      "platforms": [
+        {
+          "name": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1TEByBYETo",
+          "title": "Bilibili",
+          "icon": "fab fa-bilibili"
+        },
+        {
+          "name": "netease",
+          "url": "https://music.163.com/dj?id=3710023655",
+          "title": "网易云",
+          "icon": "fas fa-music"
+        },
+        {
+          "name": "youtube",
+          "url": "https://youtube.com/shorts/yqjC5khw4aI",
+          "title": "YouTube",
+          "icon": "fab fa-youtube"
         }
       ]
     }
